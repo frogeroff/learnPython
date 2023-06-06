@@ -1,2 +1,3 @@
-user_name = input("Александр")
-print("Привет, " + user_name)
+user_name = input()
+print(f'Привет, {user_name}')
+
