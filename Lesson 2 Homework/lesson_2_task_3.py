@@ -1,4 +1,5 @@
 square = input("Сторона квадрата: ")
 side = float(square)
-S = (side * side)
-print(S)
+import math
+S = math.ceil(side * side)
+print("Площадь квадрата:",S)

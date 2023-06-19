@@ -8,4 +8,4 @@ else:
 def is_year_leap(year):
     print("год", year,":")
 is_year_leap(n)
-k
+
