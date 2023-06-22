@@ -8,7 +8,7 @@ class User:
         print("Моя фамилия: ", self.surname)
     def sayAll(self):
         print("Мои имя и фамилия: ", self.name, self.surname)
-X = User("Александр", "Кожевников")
-X.sayName()
-X.saySurname()
-X.sayAll()
+fullName = User("Александр", "Кожевников")
+fullName.sayName()
+fullName.saySurname()
+fullName.sayAll()

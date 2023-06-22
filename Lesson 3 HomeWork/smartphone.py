@@ -11,7 +11,7 @@ class Smartphone:
     def sayNumber(self):
         print("Абонентский номер:", self.number)
 
-A = Smartphone("Sumsung", "S23", "+79991234567")
+A = Smartphone("Samsung", "S23", "+79991234567")
 A.sayMarka()
 A.sayModel()
 A.sayNumber()
@@ -35,3 +35,7 @@ E = Smartphone("Huawei", "Y7 Lite", "+79995554466")
 E.sayMarka()
 E.sayModel()
 E.sayNumber()
+
+catalog = [A, B, C, D, E]
+for i in range(0, -1):
+    print(catalog[i])
