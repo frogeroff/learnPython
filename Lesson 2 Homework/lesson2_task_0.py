@@ -1,2 +1,4 @@
-my_age = input()
-print("Ваш возраст:", int(my_age) + 1)
+my_age = input("Введите ваш возраст: ")
+my_age = int(my_age) + 1
+print("Ваш возраст:",my_age)
+print(f"Значение my_age = {my_age}")
