@@ -1,5 +1,5 @@
 class User:
-    age = 0;
+    age = 0
 
     def __init__(self, name):
         print("Я создался")

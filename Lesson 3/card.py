@@ -10,3 +10,4 @@ class Card:
         
     def pay(self, amount):
         print("С карты", self.number, "списали", amount)
+        
